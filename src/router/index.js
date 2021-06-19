@@ -13,6 +13,10 @@ const routes = [
         name: 'About',
         component: About,
     },
+    {
+        path: '/abouts',
+        redirect: 'about',
+    },
 ]
 
 const router = createRouter({
